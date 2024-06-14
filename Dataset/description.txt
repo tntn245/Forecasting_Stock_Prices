@@ -1,0 +1,24 @@
+--------------------------------------
+CỔ PHIẾU LĨNH VỰC NGÂN HÀNG VIỆT NAM
+--------------------------------------
+
+Bài nghiên cứu này tập trung phân tích xu hướng cổ phiếu trong lĩnh vực ngân hàng Việt Nam thông qua ba bộ dữ liệu của ba ngân hàng: 
+	+ Ngân hàng Thương mại cổ phần Đầu tư và Phát triển Việt Nam (BIDV)
+	+ Ngân hàng thương mại cổ phần Ngoại thương Việt Nam (VCB)
+	+ Ngân hàng Thương mại cổ phần Quân đội (MBB). 
+
+Dữ liệu được trích xuất từ trang Investing.com, bao gồm khoảng thời gian từ ngày 1 tháng 1 năm 2018 đến ngày 27 tháng 3 năm 2024. Mỗi bộ dữ liệu gốc chứa khoảng 1555 dòng và bao gồm 7 thuộc tính: Date, Price, Open, High, Low, Vol, Change.
+
+Trong đó: 
+- Date: Ngày giao dịch 
+- Price: Giá trị cuối cùng của cổ phiếu tại giờ đóng cửa
+- Open: Giá mở cửa của cổ phiếu tại ngày giao dịch
+- High: Giá cao trị cao nhất mà cổ phiếu đạt đến trong ngày 
+- Low: Giá thấp nhất mà cổ phiếu đạt được trong ngày
+- Vol: Khối lượng giao dịch của cổ phiếu trong ngày (đơn vị: triệu cổ phiếu)
+- Change: Sự chênh lệch của giá đóng cửa so với giá đóng cửa của ngày trước đó (giá trị %)
+
+Nguồn dữ liệu: investing.com
+- BIDV: https://www.investing.com/equities/commercial-bank-investment-develop
+- VCB: https://www.investing.com/equities/joint-stock-commercial-bank
+- MBB: https://www.investing.com/equities/military-commercial-bank
